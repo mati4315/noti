@@ -1,0 +1,79 @@
+/*Para que el contenido principal no supere la longitud de 700px */
+@media (min-width: 750px) {
+    #box-principal{
+        max-width: 700px;
+    }
+}
+
+    
+/*Sombreado y fondo*/
+#box-principal{
+    margin-bottom: 30px;
+    background-color: rgb(237, 241, 241);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+#nota-diario{
+   font-size: 15px;
+}
+
+.titulo{
+    
+    }
+
+img {
+ 
+
+    max-width: 80%;
+    height: auto
+
+
+
+}
+
+.img-fluid{
+    margin: 8px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.container .row .col .img-fluid{
+    width: 200px;
+    min-height: 90px;
+}
+
+#columna{
+    font-weight: 700;
+    font-size: 18px;
+    color: #A3AE6E;
+   align-self: center;
+   text-shadow: 0px 1px 1px #3f3d3d;
+
+}
+
+.col{
+   
+  
+ }
+
+ .nombre_diario{
+    background-color: #A3AE6E;
+    color: #fff;
+    font-size: 10px;
+    text-decoration: solid;
+    display:unset;
+    padding: 10px;  
+ }
+
+
+
+
+
+
+
+
+
+
+
