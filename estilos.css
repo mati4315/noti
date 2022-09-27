@@ -1,0 +1,225 @@
+/*Para que el contenido principal no supere la longitud de 700px */
+@media (min-width: 750px) {
+    #box-principal{
+        max-width: 700px;
+    }
+}
+
+    
+/*Sombreado y fondo*/
+#box-principal{
+    margin-bottom: 30px;
+    background-color: rgb(237, 241, 241);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+#nota-diario{
+   font-size: 15px;
+}
+
+.titulo{
+    
+    }
+
+.img-fluid{
+    margin: 8px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.container .row .col .img-fluid{
+    width: 200px;
+    min-height: 90px;
+}
+
+#columna{
+    font-weight: 700;
+    font-size: 18px;
+    color: #A3AE6E;
+   align-self: center;
+   text-shadow: 0px 1px 1px #3f3d3d;
+
+}
+
+.col{
+   
+  
+ }
+
+ .nombre_diario{
+    background-color: #A3AE6E;
+    color: #fff;
+    font-size: 10px;
+    text-decoration: solid;
+    display:unset;
+    padding: 10px;  
+ }
+
+
+
+
+/* Iconos del menu para telefonos/ tablet*/
+.bi-list::before { content: "=";
+    font-size: 50px;
+    font-weight: 900;
+    }
+.bi-arrow-up-short::before { content: "↑"; }
+    
+.bi-x::before { content: "x"; }
+ 
+/* Finaliza Iconos del menu para telefonos/ tablet*/   
+    
+
+
+
+
+
+.mobile-nav-toggle.bi-x {
+    color: #fff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    text-decoration: none;
+    color: #49b5e7;
+}
+
+a:hover {
+    color: #76c7ed;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Dosis", sans-serif;
+}
+
+
+
+
+
+  #header {
+    background: #fff;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 5px 0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+#header .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+
+
+
+
+#header .logo img {
+    margin: -20px ;
+    max-height: 80px;
+}
+
+
+.navbar {
+    padding: 0;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.mobile-nav-toggle {
+    color: #0f394c;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .breadcrumbs .d-flex {
+      display: block !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
